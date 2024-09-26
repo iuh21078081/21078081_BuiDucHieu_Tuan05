@@ -1,12 +1,23 @@
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View, Image } from 'react-native';
+import HomeScreen from './components/HomeScreen';
+import ChooserColorScreen from './components/ChooserColorScreen';
 
 export default function App() {
+  const Stack = createNativeStackNavigator<RootStackParamList>();
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="home" component={HomeScreen} options={
+            {title: " "}
+          }  />
+          <Stack.Screen name="pick-color" component={ChooserColorScreen} options={
+            {title: "Chọn màu"}
+          }/>
+        </Stack.Navigator>
+      </NavigationContainer>
   );
 }
 
