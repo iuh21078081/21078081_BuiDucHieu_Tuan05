@@ -1,6 +1,6 @@
-# Screen 1
+# [Screen 1](ReactNative_Buoi05_Navigation/components/HomeScreen.tsx)
 ![Uploading image.png…](ReactNative_Buoi05_Navigation/screen1.png)
-# Screen 2 - Chọn màu đen
+# [Screen 2 - Chọn màu đen](ReactNative_Buoi05_Navigation/components/ChooserColorScreen.tsx)
 ![Uploading image.png…](ReactNative_Buoi05_Navigation/screen2.png)
-# Screen 3
+# [Screen 3](ReactNative_Buoi05_Navigation/components/HomeScreen.tsx)
 ![Uploading image.png…](ReactNative_Buoi05_Navigation/screen3.png)
