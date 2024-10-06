@@ -1,8 +1,6 @@
 # Screen 1
-![Uploading image.png…](Layout_2/layout2.png)
-# Screen 2
-![Uploading image.png…](Layout_2/layout2.png)
+![Uploading image.png…](ReactNative_Buoi05_Navigation/screen1.png)
+# Screen 2 - Chọn màu đen
+![Uploading image.png…](ReactNative_Buoi05_Navigation/screen2.png)
 # Screen 3
-![Uploading image.png…](Layout_2/layout2.png)
-# Screen 4
-![Uploading image.png…](Layout_2/layout2.png)
+![Uploading image.png…](ReactNative_Buoi05_Navigation/screen3.png)
